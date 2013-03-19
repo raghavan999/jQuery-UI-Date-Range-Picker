@@ -94,7 +94,7 @@
 
 				$(this).trigger('constrainOtherPicker');
 
-				options.onChange();
+				options.onChange(range_start.datepicker('getDate'),range_end.datepicker('getDate'));
 			}
 		},
 		defaultDate: +0
